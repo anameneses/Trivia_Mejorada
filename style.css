@@ -1,0 +1,71 @@
+h1 {
+  color: #F2F3F4;
+margin-top: 3%;
+text-shadow:
+  0 0 5px rgba(0,242, 243, 244),
+  0 0 10px rgba(0,248, 249, 249),
+  0 0 20px rgba(0,215, 219, 221),
+  0 0 40px rgba(38,46, 134, 193),
+  0 0 80px rgba(0,28, 40, 51),
+  0 0 90px rgba(38,104,127,1),
+  0 0 100px rgba(38,104,127,1),
+  0 0 140px rgba(38,104,127,1),
+  0 0 180px rgba(38,176, 58, 46);
+background-color: #5DADE2;
+text-align-last: center;
+margin-bottom: auto;
+margin-top: auto;
+padding-top: 1em;
+padding-bottom: 1em;
+}
+
+#contenido{
+  background-color: #F9E79F;
+  margin-top: 0em;
+  padding-top: 2em;
+}
+#ingresarNombre{
+  background-color: #F7DC6F;
+  padding-left:3em;
+  margin-right: 60em;
+
+}
+#jugar{
+  background-color: #82E0AA;
+  margin-right: 75em;
+
+}
+
+#pregunta1{
+  background-color: #D2B4DE;
+    margin-right: 60em;
+}
+
+#pregunta2{
+  background-color: #F0B27A;
+  margin-right: 60em;
+}
+
+#pregunta3{
+  background-color: #E6B0AA;
+  margin-right: 60em;
+}
+
+#respuestas{
+  color: ##C0392B;
+margin-top: 3%;
+text-shadow:
+  0 0 5px rgba(0,192, 57, 43),
+  0 0 10px rgba(0,125,60,152),
+  0 0 20px rgba(0,241, 196, 15),
+  0 0 40px rgba(38,104,127,1),
+  0 0 80px rgba(38,104,127,1),
+  0 0 90px rgba(38,104,127,1),
+  0 0 100px rgba(38,104,127,1),
+  0 0 140px rgba(38,104,127,1),
+  0 0 180px rgba(38,176, 58, 46);
+}
+
+h3{
+  color: #B03A2E;
+}

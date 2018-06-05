@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+    <title>Trivia Mejorada</title>
+  </head>
+  <body>
+    <header>
+      <h1>T r i v i a</h1>
+    </header>
+
+
+    <section id="contenido">
+
+      <div id="ingresarNombre">
+        Ingresa tú nombre para comenzar: <input type="text" id= "nombre">
+        <input type="submit" id="ingresarnombre" value="Enviar" onclick="inicio()"/>
+      </div>
+
+
+      <div id="jugar">
+        <p>¿Quieres jugar?</p>
+        <input type="submit" id="si" value="si" onclick="siJuega()">
+        <input type="submit" id="no" value="no" onclick="noJuega()">
+      </div>
+
+      <div id="pregunta1">
+        <p>Para terminar las instrucciones en Javascript se utiliza:</p>
+        <ul>
+                      <li>1.- Salto de linea</li>
+                      <li>2.- For</li>
+                      <li>3.- Punto y coma </li>
+        </ul>
+        <input type = "text" id = "respuesta1" type="number" min = "1" max="3" required= "required">
+        <input type="button" onclick="primerPregunta()" value="Enviar">
+     </div>
+
+
+
+     <div id="pregunta2">
+       <p>La llamada al código Javascript debe colocarse en:</p>
+       <ul>
+                     <li>1.- h1</li>
+                     <li>2.- body</li>
+                     <li>3.- css</li>
+       </ul>
+       <input type = "text" id = "respuesta2" type="number" min = "1" max="3" required= "required">
+       <input type="button" onclick="segundaPregunta()" value="Enviar">
+    </div>
+
+
+    <div id="pregunta3">
+      <p>¿Cuál es la instrucción usada para devolver un valor en una función de JavaScript?</p>
+      <ul>
+                    <li>1.- continue</li>
+                    <li>2.- break</li>
+                    <li>3.- return</li>
+      </ul>
+      <input type = "text" id = "respuesta3" type="number" min = "1" max="3" required= "required">
+      <input type="button" onclick="terceraPregunta()" value="Enviar">
+   </div>
+
+   <div id="respuestas">
+                 <h3>RESULTADOS</h3>
+                   <div id="contenedorPrincipal">
+                   <div id="respuestasC" class="marcador"></div>
+                   <div id="respuestasI" class="marcador"></div>
+  </div>
+
+      </div>
+
+
+
+
+
+    </section>
+    <script type="text/javascript" src="app.js">
+
+    </script>
+  </body>
+</html>
